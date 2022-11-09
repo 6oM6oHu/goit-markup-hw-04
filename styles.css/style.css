@@ -130,10 +130,6 @@ button {
   gap: 50px;
 }
 
-.site-nav-item {
-  /* outline: 1px solid salmon; */
-}
-
 .site-nav .nav-link {
   display: block;
   padding-top: 32px;
@@ -175,23 +171,9 @@ button {
   margin-left: auto;
   gap: 50px;
 }
-/* .mail {
-  display: flex;
-  height: 16px;
-}
-
-.mail::before {
-  display: block;
-  content: "";
-  width: 16px;
-  height: 40px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("../images/envelope.svg");
-} */
 
 .nav-link {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -199,12 +181,13 @@ button {
   gap: 10px;
 }
 
-.nav-link::before {
-  content: "";
-  background-repeat: no-repeat;
+.contact-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
 
-.envelop-icon::before {
+/* .envelop-icon::before {
   width: 16px;
   height: 12px;
   background-image: url("../images/envelope.svg");
@@ -214,7 +197,7 @@ button {
   width: 10px;
   height: 16px;
   background-image: url("../images/smartphone.svg");
-}
+} */
 
 /*! ------------------HERO----------------------*/
 
