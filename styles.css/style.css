@@ -112,6 +112,7 @@ button {
 /*! ------------------HEADER----------------------  */
 
 .header {
+  height: 80px;
   border-bottom: 1px solid #ececec;
   background-color: var(--white-bg-color);
 }
@@ -165,26 +166,21 @@ button {
 /*! ------------------CONTACTS----------------------  */
 
 .contacts-list {
-  padding: 0;
-  margin: 0;
   display: flex;
-  margin-left: auto;
+  margin-left: 318px;
   gap: 30px;
-  align-items: center;
-  justify-content: center;
 }
 
 .contacts-item {
-  display: flex;
 }
 
 .contact-link {
-  height: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
   display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
   align-items: center;
   gap: 10px;
+
   color: var(--primary-text-color);
 }
 .contact-icon {
@@ -197,12 +193,13 @@ button {
 /*! ------------------HERO----------------------*/
 
 .hero {
+  margin: 0 auto;
   max-width: 1600px;
   height: 600px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 200px 0;
+
   text-align: center;
+
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -217,15 +214,16 @@ button {
 .hero-title {
   margin-bottom: 30px;
   margin-left: auto;
-  width: 696px;
   margin-right: auto;
+  width: 696px;
+
+  color: var(--white-text-color);
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--white-text-color);
 }
 
 .hero-button {
@@ -262,11 +260,11 @@ button {
 
 .feature-wrapp {
   display: flex;
+  width: 270px;
+  height: 120px;
   margin-bottom: 30px;
   align-items: center;
   justify-content: center;
-  width: 270px;
-  height: 120px;
 
   background-color: var(--feature-bg-icon-color);
 }
@@ -274,9 +272,9 @@ button {
 .feature-title {
   margin-bottom: 10px;
 
+  color: var(--secondary-text-color);
   line-height: 1.2;
   text-transform: uppercase;
-  color: var(--secondary-text-color);
 }
 
 .feature-text {
@@ -327,18 +325,18 @@ button {
 .team-title {
   margin-bottom: 10px;
 
+  color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  color: var(--secondary-text-color);
 }
 
 .team-subtitle {
-  font-size: 16px;
-  line-height: 1.2;
   margin-bottom: 16px;
 
   color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 /* ?----------------SOCIAL-TEAM-LINK-------------- */
@@ -370,14 +368,10 @@ button {
   height: 20px;
   fill: #afb1b8;
 }
-
 .social-team-link:hover,
 .social-team-link:focus {
   background-color: var(--brand-color);
-
-  /* border-radius: 50%; */
 }
-
 .social-team-link:hover .social-team-icon,
 .social-team-link:focus .social-team-icon {
   fill: var(--white-icon-color);
@@ -406,6 +400,7 @@ button {
   height: 100%;
   align-items: center;
   justify-content: center;
+
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -417,14 +412,15 @@ button {
 
 .clients-link:hover,
 .clients-link:focus {
-  border: 1px solid var(--brand-color);
   color: var(--brand-color);
+  border: 1px solid var(--brand-color);
 }
 
 /* !-------------------FOOTER---------------- */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+
   background-color: var(--footer-bg-color);
 }
 
@@ -446,6 +442,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 9px;
+
   font-style: normal;
 }
 
